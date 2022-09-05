@@ -1,0 +1,20 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15.25rem;
+}
+
+.empty img {
+  margin-bottom: 1rem;
+}
+
+.empty p {
+  color: var(--gray-300);
+  font-weight: bold;
+}
+
+.empty p + p {
+  font-weight: 400;
+}

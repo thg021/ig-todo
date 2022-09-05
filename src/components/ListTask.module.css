@@ -1,0 +1,47 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: var(--gray-500);
+  border-radius: 0.5rem;
+  border: 1px solid var(--gray-400);
+  margin-bottom: 0.75rem;
+}
+
+.task p {
+  flex: 1;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  margin: 0 0.5rem;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.task .checkbox {
+  background-color: transparent;
+  border: none;
+  padding: auto;
+  cursor: pointer;
+}
+
+.task .checkbox svg {
+  color: var(--blue-300);
+}
+
+.done {
+  color: var(--blue-500);
+}
+
+.trash svg {
+  color: var(--gray-300);
+  border-radius: 0.25rem;
+  padding: 0.375rem;
+  transition: all 0.5s;
+}
+
+.trash svg:hover {
+  background: var(--gray-400);
+  color: var(--red-600);
+}

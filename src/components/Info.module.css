@@ -1,0 +1,27 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.status.colorBlue {
+  color: var(--blue-300);
+}
+
+.status.colorPurple {
+  color: var(--purple-300);
+}
+
+.counter {
+  font-weight: bold;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.5rem;
+}
